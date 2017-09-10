@@ -1,0 +1,157 @@
+body, html {
+    height: 100%;
+    font-family: "Avenir", sans-serif;
+}
+
+.img {
+    position: center;
+    float: center;
+    width:  200px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 50%;
+   
+}
+
+
+
+div.gallery {
+	margin-top: 5%;
+    width: 250px;
+	height: 30px;
+	text-align: center;
+
+
+}
+
+
+
+
+div.gallery :before{
+  font-size: 60px;
+  left: 0;
+  position: relative;
+  right: 0;
+  text-align: center;
+  top: 50%;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+
+
+div.desc {
+  padding: 10px;
+  margin-right:10%;
+  width:600px;
+	text-align: center;
+	
+ 
+}
+
+
+.responsive {
+    padding: 5 15px;
+    float: left;
+  
+margin-right: 2%;
+	margin-left: 3%;
+	 width: 200px;
+	height: 250px;
+}
+
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 40%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	
+	.equipa{
+   display: block;
+	margin-left: 1%;
+	margin-top: 5%;
+  margin-left: 0%;
+    width: 150px;
+ 
+	
+}
+    .responsive {
+        width: 100%;
+		margin-left: 6%;
+		margin-right: 5%;
+    }
+	h2{
+    margin-top: 15%;
+	text-align: Center;
+	
+	
+}
+
+
+	
+}
+
+
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    font-size: 50px;
+   font-family: "Avenir", sans-serif;
+	margin-top: 2%;
+	text-align: Center;
+	color: #242a42;
+	
+}
+
+
+h1{
+	font-size: 12px;
+   font-family: "Avenir";
+	margin-top: 4%;
+	text-align: left;
+	margin-left: 3%;
+	color: #242a42;
+	
+}
+	
+p{
+	margin-top: 2%;
+}
+h3{
+	text-align: center;
+	margin-right: 0%;
+	
+	
+	
+}
+
+h5{
+    font-size: 50px;
+   font-family: "Avenir", sans-serif;
+	text-align: Center;
+	color: #242a42;
+	margin-top: 40%;
+	
+}
+
+
+.equipa{
+
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+	margin-left: 38%;
+}
+
+
+
+
