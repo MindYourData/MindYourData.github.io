@@ -8,17 +8,20 @@ body, html {
 .row{
 	margin-top: 20%
 }
+.idiomaCenter{
+    text-align: center;
+}
+
 .posEn {
     
     position: relative;
-    transform: translate(400px);
+    display: inline-block;
  
 }
 .posPt {
     
     position: relative;
-    transform: translate(400px)
-    
+    display: inline-block; 
 }
 
 a {
@@ -37,10 +40,7 @@ a:hover
 }
 .posSi {
     position: relative;
-    transform: translate(160px);
-    width: 0px;
-    
-    
+    display: inline-block;    
 }
 
 html,body {
@@ -54,9 +54,15 @@ color: white;
 
 }
 img.center {
+    position: relative;
+    width: 40%;
+    height: 40%;
     display: block;
     margin: 0 auto;
+    padding-top: 4%;
+    clear: both;
 }
+
 
 #logo {
     width:   250px;
