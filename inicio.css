@@ -12,6 +12,7 @@ body, html {
 }
 
 .inscricoes{
+    font-family: "Avenir", sans-serif;
 	margin-left: 4%;
 	margin-right: 4%;
 	text-align: justify;
