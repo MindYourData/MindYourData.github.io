@@ -6,9 +6,13 @@ body, html {
 
 .website{
   position: relative;
-  /*top: 110%;*/
   width: 100%;
-  height: 100%;
+  height: 45em;
+}
+.website2{
+  position: relative;
+  width: 100%;
+  height: 85em;
 }
 
 .inscricoes{
