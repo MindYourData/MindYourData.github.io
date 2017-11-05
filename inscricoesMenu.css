@@ -1,0 +1,98 @@
+html { 
+  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body, html {
+    font-family: "Avenir", sans-serif;
+}
+
+.nav {
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+z-index: 3;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.button {
+    background-color: #222;
+    position:absolute;
+    color: white;
+    width: 30%;
+    left: 13%;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+    border: none;
+    top: 40%;
+    border-radius: 15px;
+    font-size: 400%;
+    transition: all 0.5s;
+}
+.individual{
+    left: 57%;
+}
+.button span {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\232A';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -15px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 20px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.pack{
+    display: block;
+    top: 70%;    
+}
