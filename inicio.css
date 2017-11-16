@@ -171,10 +171,12 @@ h9{
 	
 }
 .container{
+	padding-top: 50px;
     padding-right: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
-  
 }
+
 
 td{
 		  text-align: left;
@@ -182,9 +184,9 @@ td{
 	     font-size: 150%;
 }
 th{
-		  text-align: center;
-        font-family: "Avenir", sans-serif;
-	      font-size: 140%;
+		  text-align: left;
+              font-family: "Avenir", sans-serif;
+	      font-size: 160%;
 
 }
 
